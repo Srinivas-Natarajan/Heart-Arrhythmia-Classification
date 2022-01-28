@@ -30,7 +30,8 @@ MIT-BIH Arrhythmia dataset :
 ### Class distribution in the dataset
 
 * Before Resampling
-<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png">
+<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png" height=10>
+
 * After Resampling
 <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_after_resample.png">
 
@@ -38,8 +39,8 @@ MIT-BIH Arrhythmia dataset :
 
 ## Model
 
-<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_plot.png">
-**Fig:** Model Structure
+![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_plot.png)
+Figure 1: Model Structure
 
 <br>
 
