@@ -41,8 +41,10 @@ MIT-BIH Arrhythmia dataset :
 
 ## Model
 
-![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_plot.png) <br>
-<p align="center"><b>Figure 1:</b> Model Structure</p>
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_plot.png"> <br>
+  <b>Figure 1:</b> Model Structure
+</p>
 
 
 <br>
@@ -52,11 +54,13 @@ MIT-BIH Arrhythmia dataset :
 * **Accuracy:** 73%
 
 <br>
-
-![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_result_plot.png) 
-<p align="center"><b>Figure 2:</b> Accuracy and Loss Plot</p>
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_result_plot.png"> <br>
+  <b>Figure 2:</b> Accuracy and Loss Plot
+</p>
 
 <br> <br>
+
 <p align="center">
   <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png" style="margin-left: auto; margin-right: auto;"> <br>
   <b>Figure 3:</b> Confusion Matrix
@@ -64,7 +68,9 @@ MIT-BIH Arrhythmia dataset :
 
 <br> <br>
 
-![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/classification_report.png)
-<p align="center"><b>Figure 4:</b> Classification Report</p>
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/classification_report.png"> <br>
+  <b>Figure 4:</b> Classification Report
+</p>
 
 <br> <br>
