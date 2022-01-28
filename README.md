@@ -58,7 +58,7 @@ MIT-BIH Arrhythmia dataset :
 
 <br> <br>
 
-<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png"> <br>
+<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png" style="margin-left: auto; margin-right: auto;"> <br>
 <p align="center"><b>Figure 3:</b> Confusion Matrix</p>
 
 <br> <br>
