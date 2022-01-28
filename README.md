@@ -2,8 +2,6 @@
 
 ---
 
-<br>
-
 ## Dataset
 The original datasets used are the MIT-BIH Arrhythmia Dataset and The PTB Diagnostic ECG Database that were preprocessed based on the methodology described in the paper below in order to end up with samples of a single heartbeat each and normalized amplitudes.
 
@@ -19,13 +17,13 @@ The original datasets used are the MIT-BIH Arrhythmia Dataset and The PTB Diagno
 6. For each R-peak, selecting a signal part with the length equal to 1.2T. <br>
 7. Padding each selected part with zeros to make its length equal to a predefined fixed length. <br>
 
-## MIT-BIH Arrhythmia dataset :
+MIT-BIH Arrhythmia dataset :
 
-Number of Categories: 5
-Number of Samples: 109446
-Sampling Frequency: 125Hz
-Data Source: Physionet’s MIT-BIH Arrhythmia Dataset
-Classes: [’N’: 0, ‘S’: 1, ‘V’: 2, ‘F’: 3, ‘Q’: 4]
+* Number of Categories: 5
+* Number of Samples: 109446
+* Sampling Frequency: 125Hz
+* Data Source: Physionet’s MIT-BIH Arrhythmia Dataset
+* Classes: [’N’: 0, ‘S’: 1, ‘V’: 2, ‘F’: 3, ‘Q’: 4]
 
 ## Model
 
