@@ -3,7 +3,7 @@
 ---
 
 ## Dataset
-The original datasets used are the MIT-BIH Arrhythmia Dataset and The PTB Diagnostic ECG Database that were preprocessed based on the methodology described in the paper below in order to end up with samples of a single heartbeat each and normalized amplitudes.
+The original datasets used are the <a href="https://www.physionet.org/content/mitdb/1.0.0/">MIT-BIH Arrhythmia Dataset</a> and The PTB Diagnostic ECG Database that were preprocessed based on the methodology described in the paper below in order to end up with samples of a single heartbeat each and normalized amplitudes.
 
 > Kachuee, M., Fazeli, S., & Sarrafzadeh, M. (2018). ECG Heartbeat Classification: A Deep Transferable Representation. 2018 IEEE International Conference on Healthcare Informatics (ICHI). https://doi.org/10.1109/ichi.2018.00092 (https://arxiv.org/pdf/1805.00794.pdf)
 
@@ -24,6 +24,8 @@ MIT-BIH Arrhythmia dataset :
 * Sampling Frequency: 125Hz
 * Data Source: Physionet’s MIT-BIH Arrhythmia Dataset
 * Classes: [’N’: 0, ‘S’: 1, ‘V’: 2, ‘F’: 3, ‘Q’: 4]
+
+<br>
 
 ## Model
 
