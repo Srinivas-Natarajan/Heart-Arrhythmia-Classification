@@ -46,17 +46,19 @@ Figure 1: Model Structure
 
 ## Results
 
-**Accuracy:** 73%
+* **Accuracy:** 73%
 
-![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_result_plot.png) <br>
+![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_result_plot.png) 
 <p align="center">Figure 2: Accuracy and Loss Plot</p>
 
+<br>
+
 ![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png)
-Figure 3: Confusion Matrix
+<p align="center">Figure 3: Confusion Matrix</p>
 
 <br>
 
 ![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/classification_report.png)
-Figure 4: Classification Report
+<p align="center">Figure 4: Classification Report</p>
 
 <br>
