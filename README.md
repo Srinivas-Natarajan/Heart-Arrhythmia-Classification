@@ -7,6 +7,8 @@ The original datasets used are the <a href="https://www.physionet.org/content/mi
 
 > Kachuee, M., Fazeli, S., & Sarrafzadeh, M. (2018). ECG Heartbeat Classification: A Deep Transferable Representation. 2018 IEEE International Conference on Healthcare Informatics (ICHI). https://doi.org/10.1109/ichi.2018.00092 (https://arxiv.org/pdf/1805.00794.pdf)
 
+<br>
+
 ### The process followed is:
 
 1. Splitting the continuous ECG signal to 10s windows and select a 10s window from an ECG signal. <br>
@@ -32,10 +34,10 @@ MIT-BIH Arrhythmia dataset :
 ### Class distribution in the dataset
 
 * Before Resampling
-<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png" height=500>
+<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png" height=400>
 
 * After Resampling
-<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_after_resample.png">
+<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_after_resample.png" height=400>
 
 <br>
 
