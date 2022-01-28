@@ -27,6 +27,8 @@ MIT-BIH Arrhythmia dataset :
 
 <br>
 
+---
+
 ### Class distribution in the dataset
 
 * Before Resampling
@@ -56,7 +58,7 @@ MIT-BIH Arrhythmia dataset :
 
 <br> <br>
 
-![](https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png)
+<img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png"> <br>
 <p align="center"><b>Figure 3:</b> Confusion Matrix</p>
 
 <br> <br>
