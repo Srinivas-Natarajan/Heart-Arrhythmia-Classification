@@ -2,6 +2,16 @@
 
 ---
 
+<br>
+
+## Instructions to run
+1. Note down the location of the ".edf" file and enter it into the EDF_PATH variable
+2. Run the predict.py file to get the output
+
+---
+
+<br>
+
 ## Dataset
 The original datasets used are the <a href="https://www.physionet.org/content/mitdb/1.0.0/">MIT-BIH Arrhythmia Dataset</a> and that are preprocessed based on the methodology described in the paper below in order to end up with samples of a single heartbeat each and normalized amplitudes.
 
