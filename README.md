@@ -67,6 +67,8 @@ MIT-BIH Arrhythmia dataset :
 * Before Resampling
 <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png" height=400>
 
+<br>
+
 * After Resampling
 <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_after_resample.png" height=400>
 
@@ -76,11 +78,9 @@ MIT-BIH Arrhythmia dataset :
 
 ---
 
-<br>
+<br> <br>
 
 ### A. Paper based model
-
-<br>
 
 <p align="center">
   <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_plot.png" style="height: 700;"> <br>
