@@ -7,14 +7,14 @@
 ## Instructions to run
 1. #### Note down the location of the ".edf" file and enter it into the cmd line.
 2. #### Use the command where 
-   * ##### PATH_TO_EDF_FILE - Location of your EDF file
-   * ##### name_of_save_file - Name of the text and npy file which will be generated
-   * ##### model_number - 
+   * PATH_TO_EDF_FILE - Location of your EDF file
+   * SAVE_FILE_NAME - Name of the text and npy file which will be generated
+   * MODEL_NUMBER - 
       * 0 - Model from the paper
       * 1 - Simplified CNN model
 
 ```
-   python predict.py PATH_TO_EDF_FILE name_of_save_file model_number
+   python predict.py PATH_TO_EDF_FILE SAVE_FILE_NAME MODEL_NUMBER
 ```
 
 <br>
