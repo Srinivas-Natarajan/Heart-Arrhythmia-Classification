@@ -1,20 +1,18 @@
 import numpy as np
 import sys 
 import tensorflow as tf
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
 import warnings
 warnings.filterwarnings('ignore')
 
 from preprocessing import edftocsv
 
-def predict_class(edf_file_path):
+def predict_class(edf_file_path, output_fname):
     """
-        Input
+        Input:
             edf_file_path - Path to the EDF file
-        Output
-            labels - List containing labels of each R-peak
+            output_fname - Name of save file generated
+        Output:
+            labels - List containing labels of each segment between R-peaks
     """
     #Load data and model
     df = edftocsv(edf_file_path, "ECG")
@@ -31,12 +29,17 @@ def predict_class(edf_file_path):
     labels = []
     for i in range(prediction.shape[0]):
         labels.append(classes[prediction[i]])
-    np.savetxt('./files/ECG_classification.txt', labels, fmt='%s')
-    np.save('./files/ECG_classification', labels)
+    np.savetxt('./files/' + output_fname + '.txt', labels, fmt='%s')
+    np.save('./files/' + output_fname, labels)
 
     return labels
 
 
+try:
+        edf_file_path = sys.argv[1]
+        output_fname = sys.argv[2]
+except IndexError:
+        print("Invalid Argument structure")
 
-print("\n\nThe classes are: \n", predict_class(sys.argv[1]))
+print("\n\nThe classes are: \n", predict_class(edf_file_path, output_fname))
 
