@@ -5,10 +5,25 @@
 <br>
 
 ## Instructions to run
-1. Note down the location of the ".edf" file and enter it into the cmd line.
-2. Use the command where PATH_TO_EDF_FILE is the location of your file 
+1. #### Note down the location of the ".edf" file and enter it into the cmd line.
+2. #### Use the command where 
+   * PATH_TO_EDF_FILE - Location of your EDF file
+   * SAVE_FILE_NAME - Name of the text and npy file which will be generated
+   * MODEL_NUMBER - 
+      * 0 - Model from the paper
+      * 1 - Simplified CNN model
 
-   > python predict.py PATH_TO_EDF_FILE
+```python
+   python predict.py PATH_TO_EDF_FILE SAVE_FILE_NAME MODEL_NUMBER
+```
+
+<br>
+
+For example, the command below will generate a file called "ECG_100.txt" which will contain the classifications
+
+```python
+    python predict.py ./files/100.edf ECG_100 
+```
 
 ---
 
@@ -30,6 +45,8 @@ The original datasets used are the <a href="https://www.physionet.org/content/mi
 5. Finding the median of R-R time intervals as the nominal heartbeat period of that window (T). <br>
 6. For each R-peak, selecting a signal part with the length equal to 1.2T. <br>
 7. Padding each selected part with zeros to make its length equal to a predefined fixed length. <br>
+
+<br>
 
 MIT-BIH Arrhythmia dataset :
 
@@ -64,8 +81,6 @@ MIT-BIH Arrhythmia dataset :
 <br>
 
 ## Results
-
-* **Accuracy:** 73%
 
 <br>
 <p align="center">
