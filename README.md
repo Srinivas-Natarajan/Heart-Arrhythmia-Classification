@@ -14,7 +14,7 @@
       * 1 - Simplified CNN model
 
 ```python
-   python predict.py PATH_TO_EDF_FILE   SAVE_FILE_NAME   MODEL_NUMBER
+   python predict.py PATH_TO_EDF_FILE SAVE_FILE_NAME MODEL_NUMBER
 ```
 
 <br>
