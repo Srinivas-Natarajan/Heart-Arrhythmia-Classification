@@ -60,6 +60,8 @@ MIT-BIH Arrhythmia dataset :
 
 ---
 
+<br>
+
 ### Class distribution in the dataset
 
 * Before Resampling
@@ -73,6 +75,8 @@ MIT-BIH Arrhythmia dataset :
 ## Model and Results
 
 ---
+
+<br>
 
 ### A. Paper based model
 
@@ -108,6 +112,8 @@ MIT-BIH Arrhythmia dataset :
 <br>
 
 ### B. Simplified model
+
+---
 
 <br>
 
