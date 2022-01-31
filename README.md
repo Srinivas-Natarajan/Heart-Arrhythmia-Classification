@@ -8,13 +8,17 @@
 1. Note down the location of the ".edf" file and enter it into the cmd line.
 2. Use the command where PATH_TO_EDF_FILE is the location of your file 
 
-   > python predict.py PATH_TO_EDF_FILE name_of_save_file
+```
+   python predict.py PATH_TO_EDF_FILE name_of_save_file
+```
 
 <br>
 
 For example, the command below will generate a file called "ECG_100.txt" which will contain the classifications
-    
+
+```
     python predict.py ./files/100.edf ECG_100 
+```
 
 ---
 
