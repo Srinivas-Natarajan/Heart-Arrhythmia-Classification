@@ -13,15 +13,15 @@
       * 0 - Model from the paper
       * 1 - Simplified CNN model
 
-```
-   python predict.py PATH_TO_EDF_FILE SAVE_FILE_NAME MODEL_NUMBER
+```python
+   python predict.py PATH_TO_EDF_FILE   SAVE_FILE_NAME   MODEL_NUMBER
 ```
 
 <br>
 
 For example, the command below will generate a file called "ECG_100.txt" which will contain the classifications
 
-```
+```python
     python predict.py ./files/100.edf ECG_100 
 ```
 
