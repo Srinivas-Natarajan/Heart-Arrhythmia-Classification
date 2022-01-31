@@ -41,6 +41,8 @@ The original datasets used are the <a href="https://www.physionet.org/content/mi
 6. For each R-peak, selecting a signal part with the length equal to 1.2T. <br>
 7. Padding each selected part with zeros to make its length equal to a predefined fixed length. <br>
 
+<br>
+
 MIT-BIH Arrhythmia dataset :
 
 * Number of Categories: 5
