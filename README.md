@@ -74,18 +74,18 @@ MIT-BIH Arrhythmia dataset :
 
 ---
 
-<br>
-
 ### A. Paper based model
 
+<br>
+
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_plot.png"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_plot.png" style="height: 700;"> <br>
   <b>Figure 1:</b> Model Structure
 </p>
 
 <br>
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_result_plot.png" style="height: 700;"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_result_plot.png"> <br>
   <b>Figure 2:</b> Accuracy and Loss Plot
 </p>
 
@@ -105,8 +105,11 @@ MIT-BIH Arrhythmia dataset :
 
 <br> <br>
 
+<br>
 
 ### B. Simplified model
+
+<br>
 
 <p align="center">
   <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/simplified%20model/simple_model_plot.png"> <br>
