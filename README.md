@@ -6,7 +6,7 @@
 
 ## Instructions to run
 1. Note down the location of the ".edf" file and enter it into the cmd line.
-2. Use the command where PATH_TO_EDF_FILE is the location of your file
+2. Use the command where PATH_TO_EDF_FILE is the location of your file <br>
    > python predict.py PATH_TO_EDF_FILE
 
 ---
