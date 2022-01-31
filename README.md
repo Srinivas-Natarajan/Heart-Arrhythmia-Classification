@@ -56,13 +56,13 @@ MIT-BIH Arrhythmia dataset :
 * Data Source: Physionet’s MIT-BIH Arrhythmia Dataset
 * Classes: [’N’: 0, ‘S’: 1, ‘V’: 2, ‘F’: 3, ‘Q’: 4]
 
-<br>
-
 ---
 
 <br>
 
 ### Class distribution in the dataset
+
+---
 
 * Before Resampling
 <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png" height=400>
@@ -83,7 +83,7 @@ MIT-BIH Arrhythmia dataset :
 ### A. Paper based model
 
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_plot.png" style="height: 700;"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_plot.png" style="height: 500;"> <br>
   <b>Figure 1:</b> Model Structure
 </p>
 
