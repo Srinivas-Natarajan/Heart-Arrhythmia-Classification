@@ -60,8 +60,6 @@ MIT-BIH Arrhythmia dataset :
 
 ### Class distribution in the dataset
 
----
-
 * Before Resampling
 <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/distribution_before_resample.png" height=400>
 
