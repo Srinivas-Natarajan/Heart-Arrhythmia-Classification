@@ -6,10 +6,15 @@
 
 ## Instructions to run
 1. Note down the location of the ".edf" file and enter it into the cmd line.
-2. Use the command where PATH_TO_EDF_FILE is the location of your file 
+2. Use the command where 
+   * PATH_TO_EDF_FILE - Location of your EDF file
+   * name_of_save_file - Name of the text and npy file which will be generated
+   * model_number - 
+      * 0 - Model from the paper
+      * 1 - Simplified CNN model
 
 ```
-   python predict.py PATH_TO_EDF_FILE name_of_save_file
+   python predict.py PATH_TO_EDF_FILE name_of_save_file model_number
 ```
 
 <br>
@@ -76,8 +81,6 @@ MIT-BIH Arrhythmia dataset :
 <br>
 
 ## Results
-
-* **Accuracy:** 73%
 
 <br>
 <p align="center">
