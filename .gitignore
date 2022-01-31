@@ -1,4 +1,5 @@
-mitbih_test.csv
-mitbih_train.csv
-mit-bih-arrhythmia-database-1.0.0
+data
+files/*
+!files/100.edf
+!files/201.edf
 playground.py
