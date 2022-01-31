@@ -70,36 +70,68 @@ MIT-BIH Arrhythmia dataset :
 
 <br>
 
-## Model
+## Model and Results
+
+---
+
+<br>
+
+### A. Paper based model
 
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_plot.png"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_plot.png"> <br>
   <b>Figure 1:</b> Model Structure
 </p>
 
-
-<br>
-
-## Results
-
 <br>
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/model_result_plot.png"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/model_result_plot.png" style="height: 700;"> <br>
   <b>Figure 2:</b> Accuracy and Loss Plot
 </p>
 
 <br> <br>
 
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/confusion_matrix.png" style="margin-left: auto; margin-right: auto;"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/confusion_matrix.png"> <br>
   <b>Figure 3:</b> Confusion Matrix
 </p>
 
 <br> <br>
 
 <p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/classification_report.png"> <br>
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/paper%20model/classification_report.png"> <br>
   <b>Figure 4:</b> Classification Report
 </p>
 
 <br> <br>
+
+
+### B. Simplified model
+
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/simplified%20model/simple_model_plot.png"> <br>
+  <b>Figure 5:</b> Simplified Model Structure
+</p>
+
+<br>
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/simplified%20model/simple_model_result_plot.png" style="height: 700;"> <br>
+  <b>Figure 6:</b> Accuracy and Loss Plot
+</p>
+
+<br> <br>
+
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/simplified%20model/confusion_matrix_simple_model.png"> <br>
+  <b>Figure 7:</b> Confusion Matrix
+</p>
+
+<br> <br>
+
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Heart-Arrhythmia-Classification/blob/main/images/simplified%20model/classification_report_simple_model.png"> <br>
+  <b>Figure 8:</b> Classification Report
+</p>
+
+<br> <br>
+
