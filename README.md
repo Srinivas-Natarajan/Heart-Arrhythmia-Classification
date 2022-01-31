@@ -13,7 +13,8 @@
 <br>
 
 For example, the command below will generate a file called "ECG_100.txt" which will contain the classifications
-   > python predict.py ./files/100.edf ECG_100 
+    
+    > python predict.py ./files/100.edf ECG_100 
 
 ---
 
