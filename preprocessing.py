@@ -10,6 +10,8 @@ def edftocsv(edf_file_path, csv_name):
         Input:
             edf_file_path - Path to the EDF file to convert. (e.g. "./100.edf")
             csv_name - Name of the CSV file which will be created
+        Output:
+            CSV file containing the processes ECG data in 188 columns
     """
     edf_record = wf.edf2mit(edf_file_path)
     record = edf_record.p_signal
@@ -24,7 +26,8 @@ def edftocsv(edf_file_path, csv_name):
         beatstoremove = np.array([0])
         beats = np.split(channel, out['rpeaks'])
 
-        for idx, idxval in enumerate(out['rpeaks']):
+        #(index,val) pairs of rpeak locations
+        for idx, idxval in enumerate(out['rpeaks']): 
             firstround = idx == 0
             lastround = idx == len(beats) - 1
 
